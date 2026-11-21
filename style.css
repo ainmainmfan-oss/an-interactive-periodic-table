@@ -4,35 +4,33 @@
 
 body {
     margin: 0;
-    padding: 30px;
-    background: #101827;
-    color: #f4f0ff;
+    padding: 35px;
+    background: #171522;
+    color: #f5efff;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
 h1 {
+    color: #e6c5ff;
     font-size: 38px;
-    color: #e6c9ff;
-}
-
-p {
-    color: #b9b6ca;
 }
 
 #periodic-table {
     display: grid;
-    grid-template-columns: repeat(18, minmax(55px, 1fr));
-    gap: 7px;
-    margin-top: 35px;
+    grid-template-columns: repeat(4, 110px);
+    justify-content: center;
+    gap: 12px;
+    margin: 40px auto;
 }
 
 .element {
-    padding: 9px 3px;
-    border-radius: 9px;
-    min-height: 90px;
-    color: #172033;
-    transition: transform 0.2s ease;
+    padding: 12px;
+    min-height: 115px;
+    border-radius: 12px;
+    background: #d9c8f5;
+    color: #302442;
+    transition: transform 0.2s;
 }
 
 .element:hover {
@@ -41,17 +39,17 @@ p {
 
 .element .number {
     display: block;
-    font-size: 10px;
     text-align: left;
+    font-size: 12px;
 }
 
 .element h2 {
-    margin: 5px 0;
-    font-size: 23px;
+    margin: 8px 0;
+    font-size: 30px;
 }
 
 .element p {
-    margin: 0;
-    color: #172033;
-    font-size: 11px;
+    margin: 4px 0;
+    color: #302442;
+    font-size: 12px;
 }
